@@ -1,5 +1,5 @@
 export const galleryImages = [
-  { src: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80', alt: 'Sala común luminosa de la Fundación Centro Geriátrico Orquídea en Pereira Risaralda', cap: 'Sala principal luminosa' },
+  { src: 'assets/fotos/galeria-fachada.jpg', alt: 'Fachada campestre de dos plantas de la Fundación Centro Geriátrico Orquídea, con piscina, jardines y vista a las montañas en Crucero de Combia, Pereira', cap: 'Nuestras instalaciones y piscina' },
   { src: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1600&q=80', alt: 'Jardín exterior tranquilo de la Fundación Centro Geriátrico Orquídea Pereira', cap: 'Jardín y áreas verdes' },
   { src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80', alt: 'Personal de enfermería acompañando adulto mayor en Fundación Centro Geriátrico Orquídea', cap: 'Atención personalizada' },
   { src: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1600&q=80', alt: 'Sesión de fisioterapia para adulto mayor en centro geriátrico Pereira', cap: 'Sala de fisioterapia' },
@@ -29,6 +29,6 @@ export const faqs = [
   },
   {
     q: '¿Puedo hacer una visita antes de tomar la decisión?',
-    a: '¡Por supuesto! Te invitamos a visitarnos en nuestra sede en la Cra 18 #23-45 en Pereira, Risaralda. Conocer el espacio en persona es la mejor manera de sentir la tranquilidad que buscas. Escríbenos por WhatsApp para coordinar tu visita.',
+    a: '¡Por supuesto! Te invitamos a visitarnos en nuestra sede en Parcela Bonavencho casa 2, Crucero de Combia, Pereira, Risaralda. Conocer el espacio en persona es la mejor manera de sentir la tranquilidad que buscas. Escríbenos por WhatsApp para coordinar tu visita.',
   },
 ];

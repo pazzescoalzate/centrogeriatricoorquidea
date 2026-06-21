@@ -66,10 +66,10 @@ export default function App() {
             <a href="#preguntas" className="text-[15px] font-medium text-ink/70 hover:text-wine transition-colors">Preguntas</a>
           </nav>
           <div className="flex items-center gap-3">
-            <a href="tel:+573100000000" className="flex sm:hidden items-center gap-2 text-[15px] font-semibold text-wine hover:text-wine-dark transition-colors">
-              <i className="fas fa-phone-alt text-sm"></i><span className="hidden">310 000 0000</span>
+            <a href="tel:+573058958457" className="flex sm:hidden items-center gap-2 text-[15px] font-semibold text-wine hover:text-wine-dark transition-colors">
+              <i className="fas fa-phone-alt text-sm"></i><span className="hidden">305 895 8457</span>
             </a>
-            <a href="https://wa.me/573100000000?text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" className="hidden sm:inline-flex items-center gap-2 bg-teal hover:bg-teal-deep text-white text-[14px] font-semibold px-5 py-2.5 rounded-full transition-colors shadow-soft">
+            <a href="https://wa.me/573058958457?text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" className="hidden sm:inline-flex items-center gap-2 bg-teal hover:bg-teal-deep text-white text-[14px] font-semibold px-5 py-2.5 rounded-full transition-colors shadow-soft">
               <i className="fab fa-whatsapp text-base"></i> Escríbenos
             </a>
             <button onClick={toggleNav} className="lg:hidden h-10 w-10 grid place-items-center rounded-full text-wine hover:bg-orchid-pale/40 transition-colors" aria-label="Abrir menú">
@@ -90,7 +90,7 @@ export default function App() {
           <a href="#instalaciones" onClick={closeNav} className="text-2xl font-semibold">Instalaciones</a>
           <a href="#ubicacion" onClick={closeNav} className="text-2xl font-semibold">Ubicación</a>
           <a href="#preguntas" onClick={closeNav} className="text-2xl font-semibold">Preguntas</a>
-          <a href="https://wa.me/573100000000" target="_blank" rel="noopener noreferrer" onClick={closeNav} className="mt-2 inline-flex items-center gap-2 bg-teal hover:bg-teal-deep text-white font-semibold px-7 py-3.5 rounded-full transition-colors">
+          <a href="https://wa.me/573058958457" target="_blank" rel="noopener noreferrer" onClick={closeNav} className="mt-2 inline-flex items-center gap-2 bg-teal hover:bg-teal-deep text-white font-semibold px-7 py-3.5 rounded-full transition-colors">
             <i className="fab fa-whatsapp text-lg"></i> WhatsApp
           </a>
         </div>
@@ -103,19 +103,19 @@ export default function App() {
         <div className="relative max-w-7xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="reveal-load">
             <span className="inline-flex items-center gap-2 bg-wine/8 text-wine text-[13px] font-semibold tracking-wide px-4 py-1.5 rounded-full ring-1 ring-wine/10">
-              <i className="fas fa-map-marker-alt"></i> Pereira, Risaralda · Cra 18 #23-45
+              <i className="fas fa-map-marker-alt"></i> Crucero de Combia, Pereira · Parcela Bonavencho casa 2
             </span>
             <h1 className="mt-6 text-[2.6rem] sm:text-6xl lg:text-[4rem] font-extrabold leading-[1.05] tracking-tight text-ink">
               Tu ser querido merece el mejor <span className="text-teal-deep">cuidado y amor</span>
             </h1>
             <p className="mt-6 text-lg text-ink/65 max-w-xl leading-relaxed">
-              En Fundación Centro Geriátrico Orquídea cuidamos a los adultos mayores como si fueran familia. Atención 24/7, enfermería especializada y un equipo que los hace sentir en casa, en el corazón de Pereira.
+              En Fundación Centro Geriátrico Orquídea cuidamos a los adultos mayores como si fueran familia. Atención 24/7, enfermería especializada y un equipo que los hace sentir en casa, en un entorno campestre y tranquilo a las afueras de Pereira.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-4">
-              <a href="https://wa.me/573100000000?text=Hola,%20quiero%20saber%20m%C3%A1s%20sobre%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white text-base font-semibold px-7 py-4 rounded-full shadow-soft hover:shadow-lift transition-all hover:-translate-y-0.5">
+              <a href="https://wa.me/573058958457?text=Hola,%20quiero%20saber%20m%C3%A1s%20sobre%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white text-base font-semibold px-7 py-4 rounded-full shadow-soft hover:shadow-lift transition-all hover:-translate-y-0.5">
                 <i className="fab fa-whatsapp text-xl"></i> Escribir por WhatsApp
               </a>
-              <a href="tel:+573100000000" className="inline-flex sm:hidden items-center gap-2.5 text-base font-semibold text-teal-deep px-6 py-4 rounded-full ring-1.5 ring-teal/40 hover:bg-teal/10 transition-colors">
+              <a href="tel:+573058958457" className="inline-flex sm:hidden items-center gap-2.5 text-base font-semibold text-teal-deep px-6 py-4 rounded-full ring-1.5 ring-teal/40 hover:bg-teal/10 transition-colors">
                 <i className="fas fa-phone-alt"></i> Llamar ahora
               </a>
             </div>
@@ -123,17 +123,17 @@ export default function App() {
           <div className="reveal-load delay relative pt-4 pb-4">
 
             <div className="grid grid-cols-2 gap-4 sm:gap-5">
-              <div className="relative rounded-[1.4rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-[4/5] mt-6">
-                <img src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?auto=format&fit=crop&w=500&q=80" alt="Adulto mayor sonriente atendido en la Fundación Centro Geriátrico Orquídea, Pereira" className="absolute inset-0 w-full h-full object-cover" />
+              <div className="relative rounded-[1.4rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-square mt-6">
+                <img src="assets/fotos/hero-1.jpg" alt="Dos adultas mayores en la rampa de acceso de la Fundación Centro Geriátrico Orquídea, frente a la casa campestre de techo en madera, en Crucero de Combia, Pereira" className="absolute inset-0 w-full h-full object-cover" />
               </div>
-              <div className="relative rounded-[1.4rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-[4/5]">
-                <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=500&q=80" alt="Adulta mayor feliz disfrutando de actividades en centro geriátrico de Pereira" className="absolute inset-0 w-full h-full object-cover" />
+              <div className="relative rounded-[1.4rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-square">
+                <img src="assets/fotos/hero-2.jpg" alt="Enfermera acompañando a una adulta mayor en silla de ruedas en la terraza de la Fundación Centro Geriátrico Orquídea, con vista a la piscina, los jardines y las montañas de Pereira" className="absolute inset-0 w-full h-full object-cover" />
               </div>
-              <div className="relative rounded-[1.4rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-[4/5]">
-                <img src="https://images.unsplash.com/photo-1559963110-71b394e7494d?auto=format&fit=crop&w=500&q=80" alt="Enfermera acompañando con cariño a una adulta mayor en la Fundación Orquídea" className="absolute inset-0 w-full h-full object-cover" />
+              <div className="relative rounded-[1.4rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-square">
+                <img src="assets/fotos/hero-3.jpg" alt="Habitación amplia y luminosa con dos camas y vista al jardín en la Fundación Centro Geriátrico Orquídea, Pereira" className="absolute inset-0 w-full h-full object-cover" />
               </div>
-              <div className="relative rounded-[1.4rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-[4/5] -mt-6">
-                <img src="https://images.unsplash.com/photo-1566616213894-2d4e1baee5d8?auto=format&fit=crop&w=500&q=80" alt="Adulto mayor activo y saludable en el centro geriátrico de Pereira, Risaralda" className="absolute inset-0 w-full h-full object-cover" />
+              <div className="relative rounded-[1.4rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-square -mt-6">
+                <img src="assets/fotos/hero-4.jpg" alt="Adulta mayor paseando con bastón por el sendero ajardinado de la Fundación Centro Geriátrico Orquídea, en un entorno campestre de Pereira" className="absolute inset-0 w-full h-full object-cover" />
               </div>
             </div>
 
@@ -199,7 +199,7 @@ export default function App() {
           <div className="reveal max-w-2xl mx-auto text-center mb-14">
             <span className="inline-block text-[13px] font-bold uppercase tracking-[0.14em] text-teal-deep mb-3">Lo que ofrecemos</span>
             <h2 className="text-3xl sm:text-4xl lg:text-[2.7rem] font-extrabold tracking-tight text-ink leading-tight">Servicios para el bienestar de tu adulto mayor en Pereira</h2>
-            <p className="mt-4 text-lg text-ink/60">Todo lo que necesitas en un solo lugar, en nuestra sede en la Cra 18 #23-45, Pereira.</p>
+            <p className="mt-4 text-lg text-ink/60">Todo lo que necesitas en un solo lugar, en nuestra sede en Parcela Bonavencho casa 2, Crucero de Combia, Pereira.</p>
           </div>
           <div className="flex flex-col gap-16 lg:gap-24">
 
@@ -212,7 +212,7 @@ export default function App() {
                 <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-pills"></i> Atención médica</span>
                 <h3 className="mt-5 text-3xl sm:text-4xl lg:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.1]">Enfermería y Administración de Medicamentos</h3>
                 <p className="mt-5 text-lg text-ink/60 leading-relaxed">Enfermeros profesionales administran los medicamentos de forma puntual y segura, siguiendo las indicaciones médicas de cada residente.</p>
-                <a href="https://wa.me/573100000000?text=Quiero%20informaci%C3%B3n%20sobre%20enfermer%C3%ADa%20en%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
+                <a href="https://wa.me/573058958457?text=Quiero%20informaci%C3%B3n%20sobre%20enfermer%C3%ADa%20en%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
               </div>
             </div>
 
@@ -225,7 +225,7 @@ export default function App() {
                 <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-walking"></i> Movilidad</span>
                 <h3 className="mt-5 text-3xl sm:text-4xl lg:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.1]">Fisioterapia Especializada</h3>
                 <p className="mt-5 text-lg text-ink/60 leading-relaxed">Sesiones de fisioterapia para mejorar la movilidad, reducir el dolor y mantener la independencia de cada adulto mayor por el mayor tiempo posible.</p>
-                <a href="https://wa.me/573100000000?text=Quiero%20informaci%C3%B3n%20sobre%20fisioterapia%20en%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
+                <a href="https://wa.me/573058958457?text=Quiero%20informaci%C3%B3n%20sobre%20fisioterapia%20en%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
               </div>
             </div>
 
@@ -238,7 +238,7 @@ export default function App() {
                 <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-brain"></i> Cuerpo y mente</span>
                 <h3 className="mt-5 text-3xl sm:text-4xl lg:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.1]">Entrenamiento Físico y Cognitivo</h3>
                 <p className="mt-5 text-lg text-ink/60 leading-relaxed">Ejercicios dirigidos para cuerpo y mente. Estimulación cognitiva que previene el deterioro y mejora la calidad de vida.</p>
-                <a href="https://wa.me/573100000000?text=Quiero%20informaci%C3%B3n%20sobre%20entrenamiento%20f%C3%ADsico%20y%20cognitivo%20en%20la%20Fundaci%C3%B3n%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
+                <a href="https://wa.me/573058958457?text=Quiero%20informaci%C3%B3n%20sobre%20entrenamiento%20f%C3%ADsico%20y%20cognitivo%20en%20la%20Fundaci%C3%B3n%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
               </div>
             </div>
 
@@ -251,7 +251,7 @@ export default function App() {
                 <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-paint-brush"></i> Vida social</span>
                 <h3 className="mt-5 text-3xl sm:text-4xl lg:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.1]">Actividades Recreativas</h3>
                 <p className="mt-5 text-lg text-ink/60 leading-relaxed">Música, manualidades, cine, juegos de mesa y salidas. Cada día tiene algo especial. La alegría es parte del cuidado.</p>
-                <a href="https://wa.me/573100000000?text=Quiero%20informaci%C3%B3n%20sobre%20actividades%20recreativas%20en%20la%20Fundaci%C3%B3n%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
+                <a href="https://wa.me/573058958457?text=Quiero%20informaci%C3%B3n%20sobre%20actividades%20recreativas%20en%20la%20Fundaci%C3%B3n%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
               </div>
             </div>
 
@@ -267,7 +267,7 @@ export default function App() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">¿Listo para dar el primer paso?</h2>
           <p className="mt-3 text-lg text-white/80">Agenda una visita sin compromiso y conoce nuestras instalaciones en Pereira.</p>
           <div className="mt-7 flex justify-center">
-            <a href="https://wa.me/573100000000?text=Quiero%20agendar%20una%20visita%20a%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-white text-wine hover:bg-gray-100 text-base font-semibold px-7 py-4 rounded-full shadow-lift transition-colors hover:-translate-y-0.5">
+            <a href="https://wa.me/573058958457?text=Quiero%20agendar%20una%20visita%20a%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-white text-wine hover:bg-gray-100 text-base font-semibold px-7 py-4 rounded-full shadow-lift transition-colors hover:-translate-y-0.5">
               <i className="fab fa-whatsapp text-xl"></i> Agendar visita por WhatsApp
             </a>
           </div>
@@ -343,13 +343,13 @@ export default function App() {
           <div className="reveal max-w-2xl mx-auto text-center mb-14">
             <span className="inline-block text-[13px] font-bold uppercase tracking-[0.14em] text-teal-deep mb-3">Nuestro espacio</span>
             <h2 className="text-3xl sm:text-4xl lg:text-[2.7rem] font-extrabold tracking-tight text-ink leading-tight">Instalaciones diseñadas para el bienestar</h2>
-            <p className="mt-4 text-lg text-ink/60">Espacios luminosos, tranquilos y seguros. Infraestructura nueva en el corazón de Pereira. <span className="text-wine font-semibold">Haz clic en una foto para verla en grande.</span></p>
+            <p className="mt-4 text-lg text-ink/60">Espacios luminosos, tranquilos y seguros. Infraestructura nueva rodeada de naturaleza, en el campo cerca de Pereira. <span className="text-wine font-semibold">Haz clic en una foto para verla en grande.</span></p>
           </div>
           <div className="reveal grid grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[200px]">
             <button onClick={() => openLb(0)} className="group relative col-span-2 row-span-2 rounded-3xl overflow-hidden ring-1 ring-orchid-mist/60 cursor-pointer text-left">
-              <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80" alt="Sala común luminosa de la Fundación Centro Geriátrico Orquídea en Pereira Risaralda" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+              <img src="assets/fotos/galeria-fachada.jpg" alt="Fachada campestre de dos plantas de la Fundación Centro Geriátrico Orquídea, con piscina, jardines y vista a las montañas en Crucero de Combia, Pereira" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
               <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-5">
-                <span className="text-white font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Sala principal luminosa</span>
+                <span className="text-white font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Nuestras instalaciones y piscina</span>
               </div>
             </button>
             <button onClick={() => openLb(1)} className="group relative rounded-3xl overflow-hidden ring-1 ring-orchid-mist/60 cursor-pointer text-left">
@@ -379,7 +379,7 @@ export default function App() {
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">¿Tienes dudas? Estamos para ayudarte.</h2>
           <p className="mt-3 text-lg text-white/85">Nuestro equipo en Pereira responde todas tus preguntas sin compromiso.</p>
           <div className="mt-6 flex justify-center">
-            <a href="https://wa.me/573100000000?text=Tengo%20dudas%20sobre%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20Pereira" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-white text-teal-deep hover:bg-gray-100 text-base font-semibold px-7 py-4 rounded-full shadow-lift transition-colors hover:-translate-y-0.5">
+            <a href="https://wa.me/573058958457?text=Tengo%20dudas%20sobre%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20Pereira" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-white text-teal-deep hover:bg-gray-100 text-base font-semibold px-7 py-4 rounded-full shadow-lift transition-colors hover:-translate-y-0.5">
               <i className="fab fa-whatsapp text-xl"></i> Resolver mis dudas
             </a>
           </div>
@@ -392,19 +392,23 @@ export default function App() {
           <div className="reveal">
             <span className="inline-block text-[13px] font-bold uppercase tracking-[0.14em] text-teal-deep mb-3">Ubicación</span>
             <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-ink leading-tight">Encuéntranos en Pereira, Risaralda</h2>
-            <p className="mt-4 text-lg text-ink/60 leading-relaxed">Estamos ubicados en el corazón de Pereira, en un espacio de fácil acceso para las familias de toda la región.</p>
+            <p className="mt-4 text-lg text-ink/60 leading-relaxed">Estamos ubicados en una zona campestre y tranquila en el Crucero de Combia, a las afueras de Pereira, con fácil acceso para las familias de toda la región.</p>
             <address className="not-italic mt-8 flex flex-col gap-5">
               <div className="flex items-start gap-4">
                 <div className="h-12 w-12 shrink-0 grid place-items-center rounded-2xl bg-orchid-pale/40 text-wine text-lg"><i className="fas fa-map-marker-alt"></i></div>
-                <div><strong className="block text-[12px] font-bold uppercase tracking-wider text-ink/45 mb-0.5">Dirección</strong><span className="text-[15px] font-semibold text-ink">Cra 18 #23-45, Pereira, Risaralda, Colombia</span></div>
+                <div><strong className="block text-[12px] font-bold uppercase tracking-wider text-ink/45 mb-0.5">Dirección</strong><span className="text-[15px] font-semibold text-ink">Parcela Bonavencho casa 2, Crucero de Combia, Pereira, Risaralda, Colombia</span></div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="h-12 w-12 shrink-0 grid place-items-center rounded-2xl bg-orchid-pale/40 text-wine text-lg"><i className="fas fa-phone-alt"></i></div>
-                <div><strong className="block text-[12px] font-bold uppercase tracking-wider text-ink/45 mb-0.5">Teléfono</strong><a href="tel:+573100000000" className="text-[15px] font-semibold text-ink hover:text-wine transition-colors">310 000 0000</a></div>
+                <div><strong className="block text-[12px] font-bold uppercase tracking-wider text-ink/45 mb-0.5">Teléfono</strong><a href="tel:+573058958457" className="text-[15px] font-semibold text-ink hover:text-wine transition-colors">305 895 8457</a></div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="h-12 w-12 shrink-0 grid place-items-center rounded-2xl bg-orchid-pale/40 text-wine text-lg"><i className="fas fa-phone-alt"></i></div>
+                <div><strong className="block text-[12px] font-bold uppercase tracking-wider text-ink/45 mb-0.5">Teléfono secundario</strong><a href="tel:+573166552379" className="text-[15px] font-semibold text-ink hover:text-wine transition-colors">316 655 2379</a></div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="h-12 w-12 shrink-0 grid place-items-center rounded-2xl bg-orchid-pale/40 text-wine text-lg"><i className="fab fa-whatsapp"></i></div>
-                <div><strong className="block text-[12px] font-bold uppercase tracking-wider text-ink/45 mb-0.5">WhatsApp</strong><a href="https://wa.me/573100000000" target="_blank" rel="noopener noreferrer" className="text-[15px] font-semibold text-ink hover:text-wine transition-colors">310 000 0000 — Escribir ahora</a></div>
+                <div><strong className="block text-[12px] font-bold uppercase tracking-wider text-ink/45 mb-0.5">WhatsApp</strong><a href="https://wa.me/573058958457" target="_blank" rel="noopener noreferrer" className="text-[15px] font-semibold text-ink hover:text-wine transition-colors">305 895 8457 — Escribir ahora</a></div>
               </div>
               <div className="flex items-start gap-4">
                 <div className="h-12 w-12 shrink-0 grid place-items-center rounded-2xl bg-orchid-pale/40 text-wine text-lg"><i className="fas fa-clock"></i></div>
@@ -412,12 +416,12 @@ export default function App() {
               </div>
             </address>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="https://wa.me/573100000000?text=Quiero%20visitar%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Agendar visita</a>
-              <a href="https://maps.google.com/?q=Cra+18+%2323-45,+Pereira,+Risaralda" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 text-teal-deep font-semibold px-6 py-3.5 rounded-full ring-1.5 ring-teal/40 hover:bg-teal/10 transition-colors"><i className="fas fa-directions"></i> Cómo llegar</a>
+              <a href="https://wa.me/573058958457?text=Quiero%20visitar%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Agendar visita</a>
+              <a href="https://maps.google.com/?q=4.8353532,-75.76321" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 text-teal-deep font-semibold px-6 py-3.5 rounded-full ring-1.5 ring-teal/40 hover:bg-teal/10 transition-colors"><i className="fas fa-directions"></i> Cómo llegar</a>
             </div>
           </div>
           <div className="reveal rounded-3xl overflow-hidden shadow-lift ring-1 ring-orchid-mist/60">
-            <iframe title="Mapa de ubicación de la Fundación Centro Geriátrico Orquídea en Pereira, Risaralda" src="https://maps.google.com/maps?q=Pereira,+Risaralda,+Colombia&t=m&z=14&output=embed&iwloc=near" loading="lazy" allowFullScreen referrerPolicy="no-referrer-when-downgrade" className="w-full h-[460px] block border-0"></iframe>
+            <iframe title="Mapa de ubicación de la Fundación Centro Geriátrico Orquídea en Pereira, Risaralda" src="https://maps.google.com/maps?q=4.8353532,-75.76321&t=m&z=16&output=embed&iwloc=near" loading="lazy" allowFullScreen referrerPolicy="no-referrer-when-downgrade" className="w-full h-[460px] block border-0"></iframe>
           </div>
         </div>
       </section>
@@ -452,8 +456,8 @@ export default function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr] gap-10 lg:gap-12 mb-12">
             <div>
               <img src="assets/logo-orquidea-white.png" alt="Fundación Centro Geriátrico Orquídea" className="h-12 w-auto mb-5" width="220" height="69" />
-              <p className="text-[15px] text-white/65 leading-relaxed max-w-md">Cuidamos a los adultos mayores con amor, profesionalismo y dedicación en el corazón de Pereira, Risaralda. Somos más que un centro geriátrico: somos un hogar.</p>
-              <div className="flex items-start gap-2.5 mt-5 text-[14px] text-white/60"><i className="fas fa-map-marker-alt text-orchid-pale mt-0.5"></i><span>Cra 18 #23-45, Pereira, Risaralda, Colombia</span></div>
+              <p className="text-[15px] text-white/65 leading-relaxed max-w-md">Cuidamos a los adultos mayores con amor, profesionalismo y dedicación en un entorno campestre cerca de Pereira, Risaralda. Somos más que un centro geriátrico: somos un hogar.</p>
+              <div className="flex items-start gap-2.5 mt-5 text-[14px] text-white/60"><i className="fas fa-map-marker-alt text-orchid-pale mt-0.5"></i><span>Parcela Bonavencho casa 2, Crucero de Combia, Pereira, Risaralda, Colombia</span></div>
             </div>
             <div>
               <h4 className="text-[12px] font-bold uppercase tracking-[0.12em] text-orchid-pale mb-4">Navegación</h4>
@@ -469,16 +473,17 @@ export default function App() {
             </div>
             <div>
               <h4 className="text-[12px] font-bold uppercase tracking-[0.12em] text-orchid-pale mb-4">Contacto</h4>
-              <div className="flex sm:hidden items-center gap-3 mb-3 text-[15px]"><i className="fas fa-phone-alt text-orchid-pale w-4"></i><a href="tel:+573100000000" className="text-white/80 hover:text-white transition-colors">310 000 0000</a></div>
-              <div className="flex items-center gap-3 mb-3 text-[15px]"><i className="fab fa-whatsapp text-orchid-pale w-4"></i><a href="https://wa.me/573100000000" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">Escríbenos por WhatsApp</a></div>
-              <div className="flex items-center gap-3 mb-3 text-[15px]"><i className="fas fa-map-marker-alt text-orchid-pale w-4"></i><span className="text-white/80">Cra 18 #23-45, Pereira</span></div>
+              <div className="flex sm:hidden items-center gap-3 mb-3 text-[15px]"><i className="fas fa-phone-alt text-orchid-pale w-4"></i><a href="tel:+573058958457" className="text-white/80 hover:text-white transition-colors">305 895 8457</a></div>
+              <div className="flex sm:hidden items-center gap-3 mb-3 text-[15px]"><i className="fas fa-phone-alt text-orchid-pale w-4"></i><a href="tel:+573166552379" className="text-white/80 hover:text-white transition-colors">316 655 2379</a></div>
+              <div className="flex items-center gap-3 mb-3 text-[15px]"><i className="fab fa-whatsapp text-orchid-pale w-4"></i><a href="https://wa.me/573058958457" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white transition-colors">Escríbenos por WhatsApp</a></div>
+              <div className="flex items-center gap-3 mb-3 text-[15px]"><i className="fas fa-map-marker-alt text-orchid-pale w-4"></i><span className="text-white/80">Parcela Bonavencho casa 2, Crucero de Combia, Pereira</span></div>
               <div className="flex items-center gap-3 mb-5 text-[15px]"><i className="fas fa-clock text-orchid-pale w-4"></i><span className="text-white/80">24 horas · 7 días</span></div>
-              <a href="https://wa.me/573100000000" target="_blank" rel="noopener noreferrer" className="inline-flex w-full items-center justify-center gap-2 bg-teal hover:bg-teal-deep text-white font-semibold px-5 py-3 rounded-full transition-colors"><i className="fab fa-whatsapp text-lg"></i> Escríbenos ya</a>
+              <a href="https://wa.me/573058958457" target="_blank" rel="noopener noreferrer" className="inline-flex w-full items-center justify-center gap-2 bg-teal hover:bg-teal-deep text-white font-semibold px-5 py-3 rounded-full transition-colors"><i className="fab fa-whatsapp text-lg"></i> Escríbenos ya</a>
             </div>
           </div>
           <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-[13px] text-white/45 text-center">
             <span>&copy; 2025 Fundación Centro Geriátrico Orquídea · Pereira, Risaralda, Colombia</span>
-            <span>Cra 18 #23-45, Pereira, Risaralda, Colombia</span>
+            <span>Parcela Bonavencho casa 2, Crucero de Combia, Pereira, Risaralda, Colombia</span>
           </div>
         </div>
       </footer>
@@ -500,7 +505,7 @@ export default function App() {
       )}
 
       {/* ============ FLOATING WHATSAPP ============ */}
-      <a href="https://wa.me/573100000000?text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp" className="fixed bottom-7 right-6 z-50 h-[60px] w-[60px] grid place-items-center rounded-full bg-[#25D366] hover:bg-[#1DA851] text-white text-3xl shadow-[0_8px_28px_rgba(37,211,102,0.5)] hover:scale-110 transition-transform">
+      <a href="https://wa.me/573058958457?text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea%20en%20Pereira" target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp" className="fixed bottom-7 right-6 z-50 h-[60px] w-[60px] grid place-items-center rounded-full bg-[#25D366] hover:bg-[#1DA851] text-white text-3xl shadow-[0_8px_28px_rgba(37,211,102,0.5)] hover:scale-110 transition-transform">
         <i className="fab fa-whatsapp"></i>
       </a>
 
