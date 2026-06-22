@@ -138,22 +138,22 @@ export default function App() {
             </div>
 
             {/* badges flotantes individuales */}
-            <div className="floaty absolute top-[3%] -left-4 sm:-left-8 z-20 bg-white rounded-2xl shadow-lift ring-1 ring-orchid-mist/60 pl-3 pr-4 py-2.5 flex items-center gap-2.5">
+            <div className="floaty absolute top-[3%] -left-4 sm:-left-8 z-20 bg-white rounded-2xl shadow-lift ring-1 ring-orchid-mist/60 pl-3 pr-4 py-2.5 hidden sm:flex items-center gap-2.5">
               <div className="h-9 w-9 shrink-0 grid place-items-center rounded-full bg-orchid-pale/50 text-wine text-sm"><i className="fas fa-clock"></i></div>
               <div className="leading-tight"><strong className="block text-[13px] font-bold text-ink">Atención 24/7</strong><span className="text-[11px] text-ink/55">Todos los días del año</span></div>
             </div>
 
-            <div className="floaty absolute top-[6%] right-2 sm:-right-4 z-20 bg-white rounded-2xl shadow-lift ring-1 ring-orchid-mist/60 pl-3 pr-4 py-2.5 flex items-center gap-2.5" style={{ animationDelay: '0.8s' }}>
+            <div className="floaty absolute top-[6%] right-2 sm:-right-4 z-20 bg-white rounded-2xl shadow-lift ring-1 ring-orchid-mist/60 pl-3 pr-4 py-2.5 hidden sm:flex items-center gap-2.5" style={{ animationDelay: '0.8s' }}>
               <div className="h-9 w-9 shrink-0 grid place-items-center rounded-full bg-orchid-pale/50 text-wine text-sm"><i className="fas fa-user-md"></i></div>
               <div className="leading-tight"><strong className="block text-[13px] font-bold text-ink">Personal especializado</strong><span className="text-[11px] text-ink/55">Enfermeros y fisioterapeutas</span></div>
             </div>
 
-            <div className="floaty absolute bottom-[3%] -right-3 sm:-right-8 z-20 bg-white rounded-2xl shadow-lift ring-1 ring-orchid-mist/60 pl-3 pr-4 py-2.5 flex items-center gap-2.5" style={{ animationDelay: '1.6s' }}>
+            <div className="floaty absolute bottom-[3%] -right-3 sm:-right-8 z-20 bg-white rounded-2xl shadow-lift ring-1 ring-orchid-mist/60 pl-3 pr-4 py-2.5 hidden sm:flex items-center gap-2.5" style={{ animationDelay: '1.6s' }}>
               <div className="h-9 w-9 shrink-0 grid place-items-center rounded-full bg-orchid-pale/50 text-wine text-sm"><i className="fas fa-heart"></i></div>
               <div className="leading-tight"><strong className="block text-[13px] font-bold text-ink">Trato familiar</strong><span className="text-[11px] text-ink/55">Como en casa</span></div>
             </div>
 
-            <div className="floaty absolute bottom-[2%] left-4 sm:-left-6 z-20 bg-white rounded-2xl shadow-lift ring-1 ring-orchid-mist/60 pl-3 pr-4 py-2.5 flex items-center gap-2.5" style={{ animationDelay: '2.2s' }}>
+            <div className="floaty absolute bottom-[2%] left-4 sm:-left-6 z-20 bg-white rounded-2xl shadow-lift ring-1 ring-orchid-mist/60 pl-3 pr-4 py-2.5 hidden sm:flex items-center gap-2.5" style={{ animationDelay: '2.2s' }}>
               <div className="h-9 w-9 shrink-0 grid place-items-center rounded-full bg-orchid-pale/50 text-wine text-sm"><i className="fas fa-shield-alt"></i></div>
               <div className="leading-tight"><strong className="block text-[13px] font-bold text-ink">Supervisión constante</strong><span className="text-[11px] text-ink/55">Vigilancia las 24 horas</span></div>
             </div>
@@ -206,7 +206,7 @@ export default function App() {
             {/* Servicio 1 */}
             <div className="reveal grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <div className="relative rounded-[2rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-[4/3] lg:h-[440px]">
-                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80" alt="Enfermera administrando medicamentos a adulto mayor en la Fundación Centro Geriátrico Orquídea Pereira" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                <img src="assets/fotos/servicio-enfermeria.jpg" alt="Enfermera tomando la tensión arterial a una adulta mayor junto al botiquín de primeros auxilios en la Fundación Centro Geriátrico Orquídea, Pereira" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
               </div>
               <div>
                 <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-pills"></i> Atención médica</span>
@@ -219,20 +219,20 @@ export default function App() {
             {/* Servicio 2 */}
             <div className="reveal grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <div className="relative rounded-[2rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-[4/3] lg:h-[440px] lg:order-2">
-                <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=900&q=80" alt="Sesión de fisioterapia para adulto mayor en centro geriátrico Pereira" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                <img src="assets/fotos/servicio-atencion.jpg" alt="Cuidadora acompañando a una adulta mayor en silla de ruedas en la terraza con vista a los jardines de la Fundación Centro Geriátrico Orquídea, Pereira" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
               </div>
               <div className="lg:order-1">
-                <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-walking"></i> Movilidad</span>
-                <h3 className="mt-5 text-3xl sm:text-4xl lg:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.1]">Fisioterapia Especializada</h3>
-                <p className="mt-5 text-lg text-ink/60 leading-relaxed">Sesiones de fisioterapia para mejorar la movilidad, reducir el dolor y mantener la independencia de cada adulto mayor por el mayor tiempo posible.</p>
-                <a href="https://wa.me/573058958457?text=Quiero%20informaci%C3%B3n%20sobre%20fisioterapia%20en%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
+                <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-hand-holding-heart"></i> Cuidado cercano</span>
+                <h3 className="mt-5 text-3xl sm:text-4xl lg:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.1]">Atención Integral y Personalizada</h3>
+                <p className="mt-5 text-lg text-ink/60 leading-relaxed">Acompañamos a cada residente con un plan de cuidado adaptado a sus necesidades, su salud y sus gustos. Atención cercana y constante para que se sienta como en casa.</p>
+                <a href="https://wa.me/573058958457?text=Quiero%20informaci%C3%B3n%20sobre%20la%20atenci%C3%B3n%20integral%20en%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
               </div>
             </div>
 
             {/* Servicio 3 */}
             <div className="reveal grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <div className="relative rounded-[2rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-[4/3] lg:h-[440px]">
-                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80" alt="Adulto mayor en entrenamiento físico y cognitivo en centro geriátrico Pereira" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                <img src="assets/fotos/servicio-cognitivo.jpg" alt="Dos adultos mayores coloreando mandalas como actividad de estimulación cognitiva en la Fundación Centro Geriátrico Orquídea, Pereira" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
               </div>
               <div>
                 <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-brain"></i> Cuerpo y mente</span>
@@ -245,13 +245,13 @@ export default function App() {
             {/* Servicio 4 */}
             <div className="reveal grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
               <div className="relative rounded-[2rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft aspect-[4/3] lg:h-[440px] lg:order-2">
-                <img src="https://images.unsplash.com/photo-1593529467220-9d721ceb9a78?auto=format&fit=crop&w=900&q=80" alt="Actividades recreativas y sociales en la Fundación Centro Geriátrico Orquídea Pereira" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                <img src="assets/fotos/servicio-bienestar.jpg" alt="Adulto mayor sonriente disfrutando de un día soleado en un entorno campestre y seguro en la Fundación Centro Geriátrico Orquídea, Pereira" className="absolute inset-0 w-full h-full object-cover" loading="lazy" />
               </div>
               <div className="lg:order-1">
-                <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-paint-brush"></i> Vida social</span>
-                <h3 className="mt-5 text-3xl sm:text-4xl lg:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.1]">Actividades Recreativas</h3>
-                <p className="mt-5 text-lg text-ink/60 leading-relaxed">Música, manualidades, cine, juegos de mesa y salidas. Cada día tiene algo especial. La alegría es parte del cuidado.</p>
-                <a href="https://wa.me/573058958457?text=Quiero%20informaci%C3%B3n%20sobre%20actividades%20recreativas%20en%20la%20Fundaci%C3%B3n%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
+                <span className="inline-flex items-center gap-2 bg-orchid-pale/40 text-wine text-[12px] font-bold uppercase tracking-[0.12em] px-3.5 py-1.5 rounded-full"><i className="fas fa-shield-heart"></i> Bienestar</span>
+                <h3 className="mt-5 text-3xl sm:text-4xl lg:text-[2.6rem] font-extrabold tracking-tight text-ink leading-[1.1]">Entorno Seguro y Lleno de Cariño</h3>
+                <p className="mt-5 text-lg text-ink/60 leading-relaxed">Instalaciones cómodas, naturales y adaptadas para el bienestar de todos. Un espacio campestre, seguro y tranquilo donde cada residente se siente acompañado y feliz.</p>
+                <a href="https://wa.me/573058958457?text=Quiero%20informaci%C3%B3n%20sobre%20la%20Fundaci%C3%B3n%20Centro%20Geri%C3%A1trico%20Orqu%C3%ADdea" target="_blank" rel="noopener noreferrer" className="mt-7 inline-flex items-center gap-2.5 bg-teal hover:bg-teal-deep text-white font-semibold px-6 py-3.5 rounded-full transition-colors shadow-soft"><i className="fab fa-whatsapp text-lg"></i> Más información</a>
               </div>
             </div>
 
@@ -285,7 +285,7 @@ export default function App() {
           <div className="grid md:grid-cols-3 gap-7">
             <div className="reveal bg-white rounded-[1.75rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft hover:shadow-lift transition-all hover:-translate-y-1.5">
               <div className="relative h-52 overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=700&q=80" alt="Adulto mayor residente en la Fundación Centro Geriátrico Orquídea Pereira, descansando en su habitación" className="w-full h-full object-cover" loading="lazy" />
+                <img src="assets/fotos/modalidad-internado.jpg" alt="Adulta mayor residente en su habitación de la Fundación Centro Geriátrico Orquídea, Pereira" className="w-full h-full object-cover" loading="lazy" />
                 <span className="absolute top-4 left-4 bg-wine text-white text-[11px] font-bold uppercase tracking-wide px-3 py-1.5 rounded-full">Más popular</span>
               </div>
               <div className="p-7">
@@ -302,7 +302,7 @@ export default function App() {
             </div>
             <div className="reveal bg-white rounded-[1.75rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft hover:shadow-lift transition-all hover:-translate-y-1.5">
               <div className="relative h-52 overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=700&q=80" alt="Adulto mayor en estancia temporal en centro geriátrico Pereira Risaralda" className="w-full h-full object-cover" loading="lazy" />
+                <img src="assets/fotos/modalidad-temporal.jpg" alt="Adulto mayor disfrutando tranquilo de una bebida caliente en la sala de la Fundación Centro Geriátrico Orquídea, Pereira" className="w-full h-full object-cover" loading="lazy" />
                 <span className="absolute top-4 left-4 bg-teal-deep text-white text-[11px] font-bold uppercase tracking-wide px-3 py-1.5 rounded-full">Flexible</span>
               </div>
               <div className="p-7">
@@ -319,7 +319,7 @@ export default function App() {
             </div>
             <div className="reveal bg-white rounded-[1.75rem] overflow-hidden ring-1 ring-orchid-mist/60 shadow-soft hover:shadow-lift transition-all hover:-translate-y-1.5">
               <div className="relative h-52 overflow-hidden">
-                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=700&q=80" alt="Adulto mayor en actividades de día en centro geriátrico Pereira" className="w-full h-full object-cover" loading="lazy" />
+                <img src="assets/fotos/modalidad-dia.jpg" alt="Adulto mayor activo paseando por los jardines durante el día en la Fundación Centro Geriátrico Orquídea, Pereira" className="w-full h-full object-cover" loading="lazy" />
                 <span className="absolute top-4 left-4 bg-orchid text-white text-[11px] font-bold uppercase tracking-wide px-3 py-1.5 rounded-full">Por horas</span>
               </div>
               <div className="p-7">
@@ -353,20 +353,20 @@ export default function App() {
               </div>
             </button>
             <button onClick={() => openLb(1)} className="group relative rounded-3xl overflow-hidden ring-1 ring-orchid-mist/60 cursor-pointer text-left">
-              <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=500&q=80" alt="Jardín exterior tranquilo de la Fundación Centro Geriátrico Orquídea Pereira" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-              <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4"><span className="text-white text-sm font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Jardín y áreas verdes</span></div>
+              <img src="assets/fotos/galeria-sala.jpg" alt="Sala común con techo de madera y ventanales en arco donde los residentes comparten con el personal en la Fundación Centro Geriátrico Orquídea, Pereira" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+              <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4"><span className="text-white text-sm font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Sala común con vista a las montañas</span></div>
             </button>
             <button onClick={() => openLb(2)} className="group relative rounded-3xl overflow-hidden ring-1 ring-orchid-mist/60 cursor-pointer text-left">
-              <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=500&q=80" alt="Personal de enfermería acompañando adulto mayor en Fundación Centro Geriátrico Orquídea" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-              <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4"><span className="text-white text-sm font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Atención personalizada</span></div>
+              <img src="assets/fotos/galeria-bano.jpg" alt="Cuidadora acompañando a una residente en un baño amplio y accesible en la Fundación Centro Geriátrico Orquídea, Pereira" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+              <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4"><span className="text-white text-sm font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Baños amplios y accesibles</span></div>
             </button>
             <button onClick={() => openLb(3)} className="group relative rounded-3xl overflow-hidden ring-1 ring-orchid-mist/60 cursor-pointer text-left">
-              <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=500&q=80" alt="Sesión de fisioterapia para adulto mayor en centro geriátrico Pereira" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-              <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4"><span className="text-white text-sm font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Sala de fisioterapia</span></div>
+              <img src="assets/fotos/galeria-corredor.jpg" alt="Corredor exterior con rampa accesible y jardines junto a la casa campestre de la Fundación Centro Geriátrico Orquídea, Pereira" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+              <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4"><span className="text-white text-sm font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Corredores y rampas accesibles</span></div>
             </button>
             <button onClick={() => openLb(4)} className="group relative rounded-3xl overflow-hidden ring-1 ring-orchid-mist/60 cursor-pointer text-left">
-              <img src="https://images.unsplash.com/photo-1593529467220-9d721ceb9a78?auto=format&fit=crop&w=500&q=80" alt="Actividades recreativas y sociales en la Fundación Centro Geriátrico Orquídea Pereira" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-              <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4"><span className="text-white text-sm font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Actividades recreativas</span></div>
+              <img src="assets/fotos/galeria-juegos.jpg" alt="Zona de terraza con mesa y juegos de mesa rodeada de naturaleza en la Fundación Centro Geriátrico Orquídea, Pereira" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+              <div className="absolute inset-0 bg-gradient-to-t from-wine-deep/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4"><span className="text-white text-sm font-semibold flex items-center gap-2"><i className="fas fa-expand"></i> Zona de juegos y actividades</span></div>
             </button>
           </div>
         </div>

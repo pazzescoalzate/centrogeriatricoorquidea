@@ -1,9 +1,9 @@
 export const galleryImages = [
   { src: 'assets/fotos/galeria-fachada.jpg', alt: 'Fachada campestre de dos plantas de la Fundación Centro Geriátrico Orquídea, con piscina, jardines y vista a las montañas en Crucero de Combia, Pereira', cap: 'Nuestras instalaciones y piscina' },
-  { src: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1600&q=80', alt: 'Jardín exterior tranquilo de la Fundación Centro Geriátrico Orquídea Pereira', cap: 'Jardín y áreas verdes' },
-  { src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1600&q=80', alt: 'Personal de enfermería acompañando adulto mayor en Fundación Centro Geriátrico Orquídea', cap: 'Atención personalizada' },
-  { src: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1600&q=80', alt: 'Sesión de fisioterapia para adulto mayor en centro geriátrico Pereira', cap: 'Sala de fisioterapia' },
-  { src: 'https://images.unsplash.com/photo-1593529467220-9d721ceb9a78?auto=format&fit=crop&w=1600&q=80', alt: 'Actividades recreativas y sociales en la Fundación Centro Geriátrico Orquídea Pereira', cap: 'Actividades recreativas' },
+  { src: 'assets/fotos/galeria-sala.jpg', alt: 'Sala común con techo de madera y ventanales en arco donde los residentes comparten con el personal en la Fundación Centro Geriátrico Orquídea, Pereira', cap: 'Sala común con vista a las montañas' },
+  { src: 'assets/fotos/galeria-bano.jpg', alt: 'Cuidadora acompañando a una residente en un baño amplio y accesible en la Fundación Centro Geriátrico Orquídea, Pereira', cap: 'Baños amplios y accesibles' },
+  { src: 'assets/fotos/galeria-corredor.jpg', alt: 'Corredor exterior con rampa accesible y jardines junto a la casa campestre de la Fundación Centro Geriátrico Orquídea, Pereira', cap: 'Corredores y rampas accesibles' },
+  { src: 'assets/fotos/galeria-juegos.jpg', alt: 'Zona de terraza con mesa y juegos de mesa rodeada de naturaleza en la Fundación Centro Geriátrico Orquídea, Pereira', cap: 'Zona de juegos y actividades' },
 ];
 
 export const faqs = [
