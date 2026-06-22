@@ -1,53 +1,220 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="/assets/favicon.png" />
-  <title>Fundación Centro Geriátrico Orquídea · Pereira, Risaralda</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    <title>Fundación Centro Geriátrico Orquídea · Pereira, Risaralda</title>
+    <meta
+      name="description"
+      content="Fundación Centro Geriátrico Orquídea: hogar geriátrico campestre en Pereira, Risaralda. Cuidado de adultos mayores con atención 24/7, enfermería, acompañamiento integral y un entorno natural y tranquilo. Internado permanente, estancia temporal y cuidado por día."
+    />
+    <meta
+      name="keywords"
+      content="hogar geriátrico Pereira, centro geriátrico Risaralda, ancianato Pereira, cuidado adulto mayor Pereira, hogar de ancianos Pereira, residencia adultos mayores Risaralda, geriátrico Crucero de Combia"
+    />
+    <meta name="author" content="Fundación Centro Geriátrico Orquídea" />
+    <meta name="robots" content="index, follow" />
+    <meta name="geo.region" content="CO-RIS" />
+    <meta name="geo.placename" content="Pereira, Risaralda" />
+    <meta name="geo.position" content="4.8353532;-75.76321" />
+    <meta name="ICBM" content="4.8353532, -75.76321" />
+    <link rel="canonical" href="https://www.geriatricoorquidea.com/" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: { sans: ['Inter','ui-sans-serif','system-ui','sans-serif'] },
-          colors: {
-            wine: { DEFAULT:'#5E2744', dark:'#48182F', deep:'#371022' },
-            orchid: { DEFAULT:'#A87EA5', light:'#BC99BA', pale:'#D5C2D4', mist:'#DDD6DE' },
-            teal: { DEFAULT:'#7DB3A6', deep:'#518A86' },
-            ink: '#241019'
+    <!-- Open Graph (WhatsApp, Facebook) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Fundación Centro Geriátrico Orquídea"
+    />
+    <meta
+      property="og:title"
+      content="Fundación Centro Geriátrico Orquídea · Pereira, Risaralda"
+    />
+    <meta
+      property="og:description"
+      content="Hogar geriátrico campestre en Pereira. Cuidamos a tu ser querido con amor, atención 24/7 y un entorno natural y tranquilo."
+    />
+    <meta property="og:url" content="https://www.geriatricoorquidea.com/" />
+    <meta
+      property="og:image"
+      content="https://www.geriatricoorquidea.com/assets/fotos/servicio-bienestar.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Adulto mayor sonriente en la Fundación Centro Geriátrico Orquídea, Pereira"
+    />
+    <meta property="og:locale" content="es_CO" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Fundación Centro Geriátrico Orquídea · Pereira, Risaralda"
+    />
+    <meta
+      name="twitter:description"
+      content="Hogar geriátrico campestre en Pereira. Cuidamos a tu ser querido con amor, atención 24/7 y un entorno natural y tranquilo."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.geriatricoorquidea.com/assets/fotos/servicio-bienestar.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+            },
+            colors: {
+              wine: { DEFAULT: "#5E2744", dark: "#48182F", deep: "#371022" },
+              orchid: {
+                DEFAULT: "#A87EA5",
+                light: "#BC99BA",
+                pale: "#D5C2D4",
+                mist: "#DDD6DE",
+              },
+              teal: { DEFAULT: "#7DB3A6", deep: "#518A86" },
+              ink: "#241019",
+            },
+            boxShadow: {
+              soft: "0 4px 24px -8px rgba(55,16,34,0.18)",
+              lift: "0 24px 60px -24px rgba(55,16,34,0.35)",
+            },
           },
-          boxShadow: {
-            soft: '0 4px 24px -8px rgba(55,16,34,0.18)',
-            lift: '0 24px 60px -24px rgba(55,16,34,0.35)'
-          }
+        },
+      };
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "NursingHome",
+        "name": "Fundación Centro Geriátrico Orquídea",
+        "description": "Hogar geriátrico campestre en Pereira, Risaralda, dedicado al cuidado de adultos mayores con atención 24/7, enfermería y acompañamiento integral.",
+        "url": "https://www.geriatricoorquidea.com/",
+        "telephone": "+573058958457",
+        "image": "https://www.geriatricoorquidea.com/assets/fotos/servicio-bienestar.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Parcela Bonavencho casa 2, Crucero de Combia",
+          "addressLocality": "Pereira",
+          "addressRegion": "Risaralda",
+          "addressCountry": "CO"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 4.8353532,
+          "longitude": -75.76321
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "sameAs": ["https://www.instagram.com/fundaciongeriatricoorquideas/"]
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        margin: 0;
+      }
+      @keyframes revealUp {
+        from {
+          opacity: 0;
+          transform: translateY(28px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
         }
       }
-    }
-  </script>
-  <style>
-    html { scroll-behavior: smooth; }
-    body { font-family:'Inter',sans-serif; margin:0; }
-    @keyframes revealUp { from { opacity:0; transform:translateY(28px); } to { opacity:1; transform:none; } }
-    @keyframes riseIn { from { transform:translateY(30px); } to { transform:none; } }
-    .reveal { animation: revealUp .8s cubic-bezier(.16,1,.3,1) both; animation-timeline: view(); animation-range: entry 0% entry 32%; }
-    @supports not (animation-timeline: view()) { .reveal { animation: revealUp .8s cubic-bezier(.16,1,.3,1) both; } }
-    .reveal-load { animation: riseIn .9s cubic-bezier(.16,1,.3,1) both; }
-    .reveal-load.delay { animation-delay:.2s; }
-    @media (prefers-reduced-motion: reduce){ .reveal,.reveal-load{ animation:none; opacity:1; transform:none; } }
-    @keyframes floaty { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
-    .floaty { animation: floaty 6s ease-in-out infinite; }
-    .lb-enter { animation: lbIn .35s cubic-bezier(.16,1,.3,1); }
-    @keyframes lbIn { from{opacity:0;transform:scale(.94)} to{opacity:1;transform:none} }
-  </style>
-</head>
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+      @keyframes riseIn {
+        from {
+          transform: translateY(30px);
+        }
+        to {
+          transform: none;
+        }
+      }
+      .reveal {
+        animation: revealUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+        animation-timeline: view();
+        animation-range: entry 0% entry 32%;
+      }
+      @supports not (animation-timeline: view()) {
+        .reveal {
+          animation: revealUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+      }
+      .reveal-load {
+        animation: riseIn 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+      }
+      .reveal-load.delay {
+        animation-delay: 0.2s;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .reveal,
+        .reveal-load {
+          animation: none;
+          opacity: 1;
+          transform: none;
+        }
+      }
+      @keyframes floaty {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-12px);
+        }
+      }
+      .floaty {
+        animation: floaty 6s ease-in-out infinite;
+      }
+      .lb-enter {
+        animation: lbIn 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      @keyframes lbIn {
+        from {
+          opacity: 0;
+          transform: scale(0.94);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
